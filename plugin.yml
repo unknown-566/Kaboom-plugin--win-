@@ -1,0 +1,15 @@
+name: KaboomShutdown
+version: 1.0.0
+main: com.example.kaboom.KaboomPlugin
+api-version: 1.21
+author: Petr
+description: "Use /kaboom to safely stop the server and shut down the PC."
+commands:
+  kaboom:
+    description: "Stops the server and shuts down the PC"
+    usage: "/kaboom"
+    permission: kaboom.use
+permissions:
+  kaboom.use:
+    description: "Allows use of /kaboom command"
+    default: op
